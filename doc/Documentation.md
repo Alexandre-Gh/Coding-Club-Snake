@@ -185,7 +185,4 @@ function snakeBodyMovement(snakeBody, snakeLength, snakeHead, fruitEaten)
 // Updates the snake’s body positions and handles growth when fruit is eaten
 ```
 
-## 💡 Tips for Participants
-- Don’t worry if everything doesn’t work immediately, debugging is part of programming
-- Try changing colors, speed, or rules to make the game your own
-- Work step by step—each part builds on the previous one
+## 💡 Don’t worry if everything doesn’t work immediately, debugging is part of programming.
