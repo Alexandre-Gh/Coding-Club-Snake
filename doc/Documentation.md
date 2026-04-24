@@ -2,21 +2,21 @@
 
 ## 📌 Description
 In this workshop, you will build the classic **Snake game** using JavaScript and run it directly in your browser.  
-Along the way, you’ll learn core programming concepts such as variables, functions, objects, and control flow.
+Along the way, you’ll learn core programming concepts such as variables, functions, objects, and inputs.
 
 By the end, you’ll have:
 - A fully playable game  
 - A better understanding of how interactive programs work  
-- The option to publish your game online and share it  
 
-**Language:** JavaScript
+**Language used:** JavaScript
 
 ---
 
 ## 🧰 Prerequisites
 - A laptop *(can be provided during offline sessions)*  
 - A code editor such as [Visual Studio Code](https://code.visualstudio.com/Download) or similar  
-- The project repository downloaded and ready  
+- The project repository downloaded and ready
+- The [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in VsCode.
 
 ---
 
@@ -25,22 +25,19 @@ By the end, you’ll have:
 ### 1. Draw Gameboard  
 **Concept:** Functions  
 
-Create a function that draws the game area (grid) where the snake will move.  
-This helps you reuse the same logic whenever the board needs to be redrawn.
+Create a function that draws the game area (grid) where the snake will move.
 
 **You’ll learn:**
-- How to define and call a function  
-- Why functions help organize code  
+- How to define and call a function
 
 ---
 
 ### 2. Store Gameboard Variables  
-**Concept:** Variables  
+**Concept:** Variables
 
 Define variables for properties like:
-- Width and height of the board  
-- Size of each square  
-- Colors  
+- Width and height of the board
+- Colors of game elements
 
 **You’ll learn:**
 - How to store and reuse values  
@@ -74,18 +71,14 @@ Represent the snake as an object that contains:
 ---
 
 ### 5. Draw Snake  
-**Concept:** Working with objects  
+**Concept:** Working with objects and arrays
 
 Use the snake object to draw each part of the snake on the board.
-
-**You’ll learn:**
-- How to loop through arrays  
-- How to connect data (snake) with visuals (drawing)  
 
 ---
 
 ### 6. Read User Input  
-**Concept:** `if` conditions  
+**Concept:** `if` conditions
 
 Capture keyboard input (arrow keys) and change the snake’s direction.
 
@@ -101,10 +94,6 @@ Capture keyboard input (arrow keys) and change the snake’s direction.
 Update the snake’s position over time:
 - Move the head forward  
 - Shift the body  
-
-**You’ll learn:**
-- How to update game state repeatedly  
-- How to combine multiple conditions in logic  
 
 ---
 
@@ -125,29 +114,17 @@ Define what happens when the snake reaches the edge:
 
 Generate a fruit at a random position on the board.
 
-**You’ll learn:**
-- How randomness works in games  
-- How to ensure the fruit appears within valid boundaries  
-
 ---
 
 ### 10. Snake–Fruit Interaction  
 
 Check if the snake eats the fruit.
 
-**You’ll learn:**
-- Collision detection basics  
-- How game events trigger changes (growth, new fruit)  
-
 ---
 
 ### 11. Update Score  
 
 Increase and display the score when the snake eats fruit.
-
-**You’ll learn:**
-- How to track progress  
-- How to update the UI dynamically  
 
 ---
 
@@ -156,10 +133,6 @@ Increase and display the score when the snake eats fruit.
 End the game when:
 - The snake hits itself  
 - (Or another defined condition)
-
-**You’ll learn:**
-- How to detect game-over conditions  
-- How to stop loops or animations  
 
 ---
 
