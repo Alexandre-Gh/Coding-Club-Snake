@@ -1,4 +1,11 @@
 //
+// /!\ This is where you can code your game and it's logic /!\
+//
+// /!\ Do not modify the action structure of the functions, otherwise it will not work /!\
+//
+
+
+//
 // variables
 //
 
