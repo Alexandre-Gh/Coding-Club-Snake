@@ -141,6 +141,10 @@ End the game when:
 
 ## 🧩 Available Functions
 
+These functions are provided to allow you to perform certain actions, such as drawing visuals in the game or certain logics.
+
+You are free to use them.
+
 ```javascript
 function drawBoard(width, height, fillColor)
 // Draws the gameboard with given dimensions and color
