@@ -1,6 +1,6 @@
 //
 // This is where you can code your game and the logic
-// You can write inside the functions, create new elements or modify the variables
+// You can write inside the functions, create new functions and variables or modify the variables
 //
 // /!\ Do not modify the actual structures of the functions, otherwise it will not work /!\
 //
