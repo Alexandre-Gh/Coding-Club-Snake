@@ -1,7 +1,8 @@
 //
-// /!\ This is where you can code your game and it's logic /!\
+// This is where you can code your game and the logic
+// You can write inside the functions, create new elements or modify the variables
 //
-// /!\ Do not modify the action structure of the functions, otherwise it will not work /!\
+// /!\ Do not modify the actual structures of the functions, otherwise it will not work /!\
 //
 
 
