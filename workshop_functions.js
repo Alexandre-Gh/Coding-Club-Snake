@@ -1,4 +1,8 @@
 //
+// /!\ PLEASE DO NOT MODIFY THE CONTENT OF THIS DOCUMENT /!\
+//
+
+//
 // Draw functions
 //
 

@@ -1,3 +1,7 @@
+//
+// /!\ PLEASE DO NOT MODIFY THE CONTENT OF THIS DOCUMENT /!\
+//
+
 //Arrow keys
 
 const ARROW_UP = "ArrowUp"
