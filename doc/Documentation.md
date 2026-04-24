@@ -51,8 +51,8 @@ Define variables for properties like:
 Create a function to draw one square on the board using coordinates.
 
 **You’ll learn:**
-- How to pass parameters into functions  
-- How small building blocks can be reused to build bigger features  
+- How to create functions with parameters
+- How small functions can be reused to build bigger features  
 
 ---
 
@@ -74,6 +74,9 @@ Represent the snake as an object that contains:
 **Concept:** Working with objects and arrays
 
 Use the snake object to draw each part of the snake on the board.
+
+**You’ll learn:**
+- How to use arrays to store multiple informations
 
 ---
 
