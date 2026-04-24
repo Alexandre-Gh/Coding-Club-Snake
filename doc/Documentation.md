@@ -165,4 +165,36 @@ function snakeBodyMovement(snakeBody, snakeLength, snakeHead, fruitEaten)
 // Updates the snake’s body positions and handles growth when fruit is eaten
 ```
 
+## 🔧 Available Variables
+
+```javascript
+// Arrow keys (keyboard input values)
+
+const ARROW_UP = "ArrowUp"
+// Triggered when the up arrow key is pressed
+
+const ARROW_DOWN = "ArrowDown"
+// Triggered when the down arrow key is pressed
+
+const ARROW_RIGHT = "ArrowRight"
+// Triggered when the right arrow key is pressed
+
+const ARROW_LEFT = "ArrowLeft"
+// Triggered when the left arrow key is pressed
+
+
+// Directions (used for snake movement logic)
+
+const UP = "Up"
+// Represents upward movement
+
+const RIGHT = "Right"
+// Represents movement to the right
+
+const DOWN = "Down"
+// Represents downward movement
+
+const LEFT = "Left"
+// Represents movement to the left
+
 ## 💡 Don’t worry if everything doesn’t work immediately, debugging is part of programming.
