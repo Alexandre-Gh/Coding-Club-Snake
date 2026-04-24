@@ -196,5 +196,6 @@ const DOWN = "Down"
 
 const LEFT = "Left"
 // Represents movement to the left
+```
 
 ## 💡 Don’t worry if everything doesn’t work immediately, debugging is part of programming.
