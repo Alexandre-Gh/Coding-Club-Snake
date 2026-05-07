@@ -28,7 +28,7 @@ Once the download is complete, find the `.zip` file in your **Downloads** folder
 The file should look something like this:
 
 ```text
-coding-club-snake.zip
+Coding-Club-Snake-main.zip
 ```
 
 ---
