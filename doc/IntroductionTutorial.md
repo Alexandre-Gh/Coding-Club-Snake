@@ -1,10 +1,10 @@
 # Introduction to programming in Javascript and Project Tutorial
 
-This project is the starting point of a small Snake game. Some parts of the game engine are already handled for you, such as the main structure of the game loop and methods to draw on the screen data needed to keep track of the game state.
+This project is the starting point of a small Snake game. Some parts of the game are already handled for you, such as the methods to draw on the screen.
 
-What remains is understanding how the code works and how to extend it. This document does not explain everything about JavaScript or game development. Instead, it focuses on a few essential programming concepts that appear directly in this project: variables, functions, and parameters.
+This document presents how variables and functions work in Javascript in order to get started.
 
-These ideas are enough to get started, but not enough to go further on their own. As you continue, you will need to explore additional concepts and examples through practice and external learning.
+It is highly encouraged to go and find ressources online or on other websites that contains tutorials on Javascript and programming in general.
 
 ---
 
