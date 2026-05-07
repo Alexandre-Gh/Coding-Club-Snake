@@ -95,7 +95,7 @@ You can access these values like this:
 game.score = game.score + 10;
 ```
 
-This increases the score by 10.
+This example code increases the score by 10.
 
 ---
 
@@ -108,6 +108,8 @@ Functions are useful because they allow the same code to be executed multiple ti
 Here is a complete example:
 
 ```javascript
+let result = 0; //An external variable in the context of this example
+
 function addNumbers(a, b) {
     result = a + b;
 }
