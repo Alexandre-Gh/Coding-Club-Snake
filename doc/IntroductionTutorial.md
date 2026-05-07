@@ -31,20 +31,12 @@ This line can be separated into multiple parts:
 
 Variable names should describe what the value represents.
 
-Good variable names:
+Example:
 
 ```javascript
 const playerSpeed = 10;
 const snakeLength = 5;
 const gameOver = false;
-```
-
-Bad variable names:
-
-```javascript
-const x = 10;
-const thing = 5;
-const data = false;
 ```
 
 A clear variable name makes code easier to read and understand.
@@ -53,7 +45,7 @@ A clear variable name makes code easier to read and understand.
 
 ### `const` and `let`
 
-`const` means the variable should not be reassigned later.
+`const` means the variable is constant and cannot be changed after creation.
 
 ```javascript
 const SQUARE_SIZE = 25;
@@ -97,7 +89,7 @@ Inside the object:
 - `score` stores the player's score
 - `speed` stores the game speed
 
-You can access these values using a `.`:
+You can access these values like this:
 
 ```javascript
 game.score = game.score + 10;
@@ -109,92 +101,58 @@ This increases the score by 10.
 
 ## Functions: reusable blocks of code
 
-A **function** is a block of code that performs a specific task.
+A **function** is a reusable block of code that performs a task.
 
-Functions are useful because they allow code to be reused instead of rewritten multiple times.
+Functions are useful because they allow the same code to be executed multiple times without rewriting it.
 
-Here is a simple function:
+Here is a complete example:
 
 ```javascript
-function drawSquare(x, y, color) {
-    drawBoard(x, y, color);
+function addNumbers(a, b) {
+    result = a + b;
 }
 ```
 
-This function can also be separated into different parts:
+This function can be separated into several parts:
 
-- `function` tells JavaScript that you are creating a function
-- `drawSquare` is the function name
-- `(x, y, color)` are the function parameters
+- `function` tells JavaScript that a function is being created
+- `addNumbers` is the name of the function
+- `a` and `b` are called **parameters**
 - `{ }` contains the code that will run when the function is called
 
----
-
-### Calling a function
-
-Defining a function does not execute it automatically.
-
-To run the function, it must be called:
-
-```javascript
-drawSquare(10, 20, "green");
-```
-
-The values passed into the function are called **arguments**.
-
-In this example:
-
-- `x` becomes `10`
-- `y` becomes `20`
-- `color` becomes `"green"`
-
-Inside the function, these values can be used like normal variables.
-
----
-
-### Parameters
-
-Parameters are variables created by the function itself.
-
-They only exist inside the function and receive values when the function is called.
+The parameters (`a` and `b`) are variables created by the function itself.  
+They receive values when the function is called.
 
 Example:
 
 ```javascript
-function showScore(score) {
-    console.log(score);
-}
+addNumbers(5, 3);
 ```
 
-Calling the function:
+When this function call happens:
+
+- `a` receives the value `5`
+- `b` receives the value `3`
+
+So inside the function, the code becomes:
 
 ```javascript
-showScore(100);
+result = 5 + 3;
 ```
 
-Inside the function, `score` now contains `100`.
+After the calculation, `result` will contain `8`.
 
-Functions can have:
+This allows the same function to work with different values without rewriting the logic every time.
 
-- no parameters
-- one parameter
-- multiple parameters
-
-Examples:
+For example:
 
 ```javascript
-function startGame() {
-
-}
-
-function setSpeed(speed) {
-
-}
-
-function drawSquare(x, y, color) {
-
-}
+addNumbers(10, 2);
+addNumbers(7, 1);
+addNumbers(100, 50);
 ```
+
+Each function call uses different values while reusing the same code structure.
 
 ---
 
@@ -224,15 +182,14 @@ Each function has a specific purpose:
 
 The `keyCode` parameter contains information about the pressed key.
 
-Example:
+This values can either be:
 
 ```javascript
-onKeyDown(ARROW_UP);
+ARROW_UP
+ARROW_DOWN
+ARROW_RIGHT
+ARROW_LEFT
 ```
-
-Inside the function, `keyCode` will contain `ARROW_UP`.
-
-This allows one function to handle all keyboard inputs.
 
 ⚠️ Check the provided documentation to see which predefined variables and key codes are available.
 
