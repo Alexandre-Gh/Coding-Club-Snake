@@ -24,14 +24,20 @@ const game = {
 // Functions
 //
 
+// This function is automatically called every frame
+// It is used to update the game state (movement, logic, collisions, etc.)
 function loop() {
 
 }
 
+// This function is automatically called every frame
+// It is used to render (draw) everything on the screen
 function draw() {
 
 }
 
+// This function is called whenever a key is pressed
+// The keyCode parameter tells which key was pressed
 function onKeyDown(keyCode) {
 
 }

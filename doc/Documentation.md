@@ -20,6 +20,9 @@ By the end, you’ll have:
 
 ---
 
+## ⚠️ Before you start
+At the end of this document, you will see a list of functions and variables already set up for you to use in this project, don't forget to use them!
+
 ## 🚀 Steps
 
 ### 1. Draw Gameboard  
